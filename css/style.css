@@ -1,8 +1,29 @@
 
 
 /* navigation */
-.navbar-toggler:focus{
-outline: unset;
-border:unset;
-box-shadow: none;
+
+.nav-link{
+    font-weight: 600;
+    text-transform: capitalize;
+    color:red;
+    font-size: 0.9rem;
 }
+
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.6rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+    outline: unset !important;
+    border:unset !important;
+    box-shadow: none !important;
+    }

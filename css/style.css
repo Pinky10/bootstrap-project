@@ -1,0 +1,8 @@
+
+
+/* navigation */
+.navbar-toggler:focus{
+outline: unset;
+border:unset;
+box-shadow: none;
+}
